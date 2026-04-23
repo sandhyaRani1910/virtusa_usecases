@@ -35,7 +35,7 @@ INSERT INTO DeliveryPartner(name) VALUES
 
  INSERT INTO Orders
  ( partner_id, order_date, promised_date, delivered_date, city, status) VALUES
- (1, '2026-03-01', '2026-03-05', '2023-01-06', 'Hyderabad', 'Successful'),
+ (1, '2026-03-01', '2026-03-05', '2023-01-05', 'Hyderabad', 'Successful'),
  (2, '2026-03-02', '2026-03-06', '2026-03-06', 'Kolkata', 'Returned'),
  (3, '2026-03-03', '2026-03-07', NULL, 'Chennai', 'Processing'),
  (4, '2026-03-04', '2026-03-08', '2026-03-11', 'Bangalore', 'Returned'),
